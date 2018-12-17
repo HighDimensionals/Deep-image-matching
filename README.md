@@ -6,8 +6,6 @@ https://arxiv.org/abs/1511.05879
 https://arxiv.org/abs/1510.07493
 https://arxiv.org/abs/1604.01325
 
-
-==================
 Training
 ==================
 The fine-tuning of the Siamese neural network weights can be performed by running the demo "FineTuning_main.ipynb".
@@ -19,7 +17,6 @@ For generating training data, importing the network architecture, and fine-tunin
 
 All the modules called within the demo "FineTuning_main.ipynb" are placed in the "/modules" directory.
 
-==================
 Testing
 ==================
 Run "Test_gen_features_main.ipynb" to obtain the test results. The demo file (i) loads the descriptor weights, (ii) computes and saves the features for all database images, (iii) finds the closest matching image in the database for each test query image, and (iv) reports the results in terms of "mean average precision" (mAP). All the modules called within "Test_gen_features_main.ipynb" are in the  
