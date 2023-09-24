@@ -1,4 +1,4 @@
-# Deep Image Matching [Graduate Course Project: Deep Learning for Biometrics]
+# Deep Image Matching 
 
 This is a Keras implementation of a deep image matching scheme, where the image descriptors(features) are computed using the concatenation of a VGG16 network (without the fully connected layers), a pooling layer, normalization layer, PCA layer, and another normalization layer. During the training phase, the VGG16 weights and PCA layer weights are fine-tuned using a Siamese neural network: the Siamese neural network is composed of three identical copies of the deep network described above. The training (triplet) loss defined with the Siamese network allows for similar images to be closer and dissimilar images to be further apart in the descriptor/feature space. This training architecture uses ideas from the following papers:
 
